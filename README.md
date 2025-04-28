@@ -22,18 +22,6 @@ Since this extension isn't published on the Chrome Web Store yet, you'll need to
 4. Click "Load unpacked" and select the directory containing this extension
 5. The extension should now be installed and active
 
-## Creating Icons
-
-The extension includes an HTML file (`create-icons.html`) that you can use to generate placeholder icons:
-
-1. Open the HTML file in a browser
-2. Right-click on each canvas and select "Save Image As..."
-3. Save the images with the correct filenames in the `images` folder:
-   - icon-16.png
-   - icon-32.png
-   - icon-48.png
-   - icon-128.png
-
 ## How It Works
 
 When you visit a health-related website (such as WebMD, Mayo Clinic, or Healthline), the extension will:
@@ -57,7 +45,7 @@ The extension currently works on:
 
 ## Project Status
 
-This is an early prototype focusing only on the Perspective Panel component (section 3.1 of the implementation plan). Future versions will include additional features such as:
+This is an early prototype focusing only on the Perspective Panel component. Future versions will include additional features such as:
 
 - CalmRing Timer & Break Nudges
 - Guided Breathing Overlay
@@ -69,7 +57,6 @@ This is an early prototype focusing only on the Perspective Panel component (sec
 The extension:
 - Does not collect or transmit any personal data
 - All processing happens locally in your browser
-- No external APIs are called
 
 ## License
 
